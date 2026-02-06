@@ -12,7 +12,7 @@ on:
 jobs:
   login-to-dockerhub-dev:
     runs-on: ubuntu-latest
-    environment: DEV
+    environment: Dev
 
     steps:
       - name: Checkout code
@@ -27,7 +27,7 @@ jobs:
 
   login-to-dockerhub-qa:
     runs-on: ubuntu-latest
-    environment: QA
+    environment: Qa
 
     steps:
       - name: Checkout code
